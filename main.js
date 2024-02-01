@@ -1,12 +1,17 @@
 import "./node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
 import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./node_modules/bootstrap/dist/js/bootstrap.min";
+import HandelSubmitAdd from "./src/Component/HandelAddNew";
+import HandelAdmin from "./src/Component/HandelAdmin";
 import HandelDetail from "./src/Component/HandelDetail";
 import HandelProductList from "./src/Component/HandelProductList";
 import HandelSubmitLogin from "./src/Component/HandelSign";
 import handelSubmitRegister from "./src/Component/HandelSignUp";
+import HandelUpdate from "./src/Component/HandelUpdate";
 import About from "./src/Pages/About";
 import doahdboard from "./src/Pages/Admin/doahdboard";
+import formProduct from "./src/Pages/Admin/formProduct";
+import formUpdate from "./src/Pages/Admin/formUpdate";
 import Detail from "./src/Pages/Detail";
 import HomePage from "./src/Pages/HomePage";
 import NotFound from "./src/Pages/NotFound";
@@ -40,7 +45,7 @@ router.on("/signin", () => render(app, SignIn), {
 });
 router.on("/signout", () => {
   sessionStorage.removeItem("user");
-  const conFirm = confirm(`Bạn đã đăng xuất thành công`);
+  const conFirm = confirm(`Đăng xuất thành công`);
   if (conFirm) {
     window.location.href = "/";
   } else {
@@ -57,6 +62,38 @@ router.on("/admin", () => render(app, doahdboard), {
       window.location.href = "/";
     }
   },
+  after() {
+    HandelAdmin();
+  },
 });
+router.on("/admin/add", () => render(app, formProduct), {
+  before(done) {
+    const loged = JSON.parse(sessionStorage.getItem("user"))?.user;
+    if (loged && loged.role === "admin") {
+      done();
+    } else {
+      alert("Ban khong co quyen truy cap");
+      window.location.href = "/";
+    }
+  },
+  after() {
+    HandelSubmitAdd();
+  },
+});
+router.on("/edit/:id", () => render(app, formUpdate), {
+  before(done) {
+    const loged = JSON.parse(sessionStorage.getItem("user"))?.user;
+    if (loged && loged.role === "admin") {
+      done();
+    } else {
+      alert("Ban khong co quyen truy cap");
+      window.location.href = "/";
+    }
+  },
+  after() {
+    HandelUpdate();
+  },
+});
+
 router.notFound(() => render(app, NotFound));
 router.resolve();

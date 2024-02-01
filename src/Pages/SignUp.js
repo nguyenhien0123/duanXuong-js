@@ -2,7 +2,10 @@ import Header from "../Component/Header";
 
 const SignUp = () => {
   return /*html*/ `
-<div>
+
+<div class="pageSignUp">
+   <img class="img-bg" src="../../public/background-trang-1.webp"/>
+
    ${Header()}
     <div class="signup">
     <form action="">

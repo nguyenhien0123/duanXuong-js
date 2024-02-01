@@ -1,11 +1,15 @@
+import Banner from "../Component/Banner";
+import Footer from "../Component/Footer";
 import Header from "../Component/Header";
 const HomePage = () => {
   return /*html*/ `
   ${Header()}
+  ${Banner()}
     <div class="container">
-      <h2>Danh sach san pham</h2>
       <div class="products"></div>
     </div>
+
+    ${Footer()}
   `;
 };
 

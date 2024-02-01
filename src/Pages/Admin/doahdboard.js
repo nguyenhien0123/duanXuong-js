@@ -1,8 +1,8 @@
 const doahdboard = () => {
   return /*html*/ `
     <div>
-      Hello Admin
-      <a href="/admin"></a>
+      <a href="/admin/add" class="btn add-product btn-primary">Add New Product</a>
+      <div id="productList"></div>
     </div>
   `;
 };

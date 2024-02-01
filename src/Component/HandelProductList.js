@@ -9,15 +9,30 @@ const callApi = (product) => {
       const htmlContent = data
         .map(
           (product) => /*html*/ `
-        <div class="product">
-            <img src="${product.thumbnail}"/>
-            <div class="title">${product.title}</div>
-            <div class="price">Giá: $${product.price}</div>
-            <div class="des">Mô tả: ${product.description}</div>
-            <div class="btn"><button>Add to card</button>
-            <button><a href="detail/${product.id}">View</a></button>
-            </div>
-            </div>
+
+          
+          <div class="swiper-slide">
+                <div class="product-card position-relative">
+                  <div class="image-holder">
+                   <a href="/detail/${product.id}"> <img
+                      src="${product.thumbnail}"
+                      alt="product-item"
+                      class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="cart-concern position-absolute">
+
+                  </div>
+                  <div
+                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
+                  >
+                    <h3 class="card-title text-uppercase">
+                      <a href="#">${product.title}</a>
+                    </h3>
+                    <span class="item-price text-primary">$${product.price}</span>
+                  </div>
+                </div>
+              </div>
         `
         )
         .join("");
