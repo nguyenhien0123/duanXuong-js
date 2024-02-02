@@ -3,19 +3,36 @@ import api from "../apis";
 const HandelAdmin = async () => {
   const productList = document.querySelector("#productList");
 
-  const deleProduct = (id) => {
-    console.log(id);
-    api.delete(`products/${id}`);
-    window.location.reload();
-  };
-
   productList.addEventListener("click", (e) => {
     const target = e.target;
     if (target.classList.contains("btn-dele")) {
       const productId = target.dataset.id;
       deleProduct(productId);
     }
+    if (target.classList.contains("btn-edit")) {
+      const productId = target.dataset.id;
+      onUpdated(productId);
+    }
   });
+  const deleProduct = async (id) => {
+    if (confirm(`Bạn có muốn xoá sản phẩm ${id}`)) {
+      await api.delete(`products/${id}`);
+      window.location.reload();
+    }
+  };
+  const onUpdated = async (id) => {
+    window.location.href = `edit/${id}`;
+    try {
+      const { data } = await api.get(`/products/${id}`);
+      console.log(data);
+      document.querySelector("#name").value = data.title || "";
+      document.querySelector("#price").value = data.price || "";
+      document.querySelector("#image").value = data.thumbnail || "";
+      document.querySelector("#desc").value = data.description || "";
+    } catch (error) {
+      console.log(error);
+    }
+  };
   // hien thi du lieu
   const { data } = await api.get(`/products`);
   if (data) {
