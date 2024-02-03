@@ -8,7 +8,7 @@ const Detail = () => {
   };
   const productId = extractProductIdFromURL();
 
-  fetch(`http://localhost:3001/products/${productId}`)
+  fetch(`http://localhost:3000/products/${productId}`)
     .then((res) => res.json())
     .then((data) => {
       const detailProduct = document.querySelector(".detail");

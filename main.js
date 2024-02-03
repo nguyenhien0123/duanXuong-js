@@ -7,9 +7,11 @@ import HandelDetail from "./src/Component/HandelDetail";
 import HandelProductList from "./src/Component/HandelProductList";
 import HandelSubmitLogin from "./src/Component/HandelSign";
 import handelSubmitRegister from "./src/Component/HandelSignUp";
+import HandelUpdate from "./src/Component/HandelUpdate";
 import About from "./src/Pages/About";
 import doahdboard from "./src/Pages/Admin/doahdboard";
 import formProduct from "./src/Pages/Admin/formProduct";
+import formUpdate from "./src/Pages/Admin/formUpdate";
 import Detail from "./src/Pages/Detail";
 import HomePage from "./src/Pages/HomePage";
 import NotFound from "./src/Pages/NotFound";
@@ -17,7 +19,6 @@ import SignIn from "./src/Pages/SignIn";
 import SignUp from "./src/Pages/SignUp";
 import { render, router } from "./src/Ultil/comon";
 import "./style.css";
-import formUpdate from "./src/Pages/Admin/formUpdate";
 router.on("/", () => render(app, HomePage), {
   after() {
     HandelProductList();
@@ -89,7 +90,9 @@ router.on("/edit/:id", () => render(app, formUpdate), {
       window.location.href = "/";
     }
   },
-  after() {},
+  after() {
+    HandelUpdate();
+  },
 });
 
 router.notFound(() => render(app, NotFound));

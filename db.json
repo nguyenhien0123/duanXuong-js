@@ -35,7 +35,7 @@
       "stock": 88,
       "brand": "Dermive",
       "category": "skincare",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYpvHvp5XT7eRbf9waPeG4QI7zSoxuyhHu-A&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item2.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/18/1.jpg",
         "https://cdn.dummyjson.com/product-images/18/2.jpg",
@@ -46,7 +46,7 @@
     },
     {
       "id": 19,
-      "title": "IPHONE 15",
+      "title": "IPHONE 11",
       "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
       "price": 1100,
       "discountPercentage": 10.68,
@@ -54,7 +54,7 @@
       "stock": 54,
       "brand": "ROREC White Rice",
       "category": "skincare",
-      "thumbnail": "https://ipadizate.com/hero/2023/02/apples1.jpg?width=768&aspect_ratio=16:9&format=nowebp",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item3.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/19/1.jpg",
         "https://cdn.dummyjson.com/product-images/19/2.jpg",
@@ -72,7 +72,7 @@
       "stock": 140,
       "brand": "Fair & Clear",
       "category": "skincare",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvF2YKDokayuoPyQaCEolCeghODnwZTsacg&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item4.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/20/1.jpg",
         "https://cdn.dummyjson.com/product-images/20/2.jpg",
@@ -83,7 +83,7 @@
     },
     {
       "id": 21,
-      "title": "Apple Imac 3.0",
+      "title": "IPHONE 13",
       "description": "Fine quality Branded Product Keep in a cool and dry place",
       "price": 1500,
       "discountPercentage": 4.81,
@@ -91,7 +91,7 @@
       "stock": 133,
       "brand": "Saaf & Khaas",
       "category": "groceries",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpGQOShUdYyabbUqKxJRR5lHIJOhQBdCz8MNtzZbaGzNv2rmKaDdF-8-6gd2kz46R3I2g&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item4.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/21/1.png",
         "https://cdn.dummyjson.com/product-images/21/2.jpg",
@@ -100,7 +100,7 @@
     },
     {
       "id": 22,
-      "title": "Apple Imac 21.5",
+      "title": "HEAVY WATCH",
       "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
       "price": 680,
       "discountPercentage": 15.58,
@@ -108,7 +108,7 @@
       "stock": 146,
       "brand": "Bake Parlor Big",
       "category": "groceries",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3W9pMuSsTXQADOMbK1KR-aPwOCAyR4B1c7GSBjoF070B3p4YiwlwscQyYnhR5juATK-s&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item5.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/22/1.jpg",
         "https://cdn.dummyjson.com/product-images/22/2.jpg",
@@ -125,7 +125,7 @@
       "stock": 26,
       "brand": "Baking Food Items",
       "category": "groceries",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSLHeKmwmaJrurRQ_0nRLz4CeJNNVpAoil43pEXUjZMAcxmVtJc6tJCQTMRHRoaL_4cw4&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item1.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/23/1.jpg",
         "https://cdn.dummyjson.com/product-images/23/2.jpg",
@@ -144,7 +144,7 @@
       "stock": 113,
       "brand": "fauji",
       "category": "groceries",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9rYhvAJ7-0OAM5H4BH1YQQrZ1LHaMTal-sBw8h1xcUe_vYwcxOAqOU_4XbDOD75Iujck&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item7.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/24/1.jpg",
         "https://cdn.dummyjson.com/product-images/24/2.jpg",
@@ -163,7 +163,7 @@
       "stock": 47,
       "brand": "Dry Rose",
       "category": "groceries",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXQIl6AVfcj01zsYYT3tJNM4Rw7LvX9jKRCQ&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item8.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/25/1.png",
         "https://cdn.dummyjson.com/product-images/25/2.jpg",
@@ -182,7 +182,7 @@
       "stock": 131,
       "brand": "Boho Decor",
       "category": "home-decoration",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwt5EFpn5UMCur6Fuh6wMgN8NHF5IF6DPy27XHUorEDB4kcHUnQYDjDuqQQT_A-muvWMY&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item9.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/26/1.jpg",
         "https://cdn.dummyjson.com/product-images/26/2.jpg",
@@ -202,7 +202,7 @@
       "stock": 17,
       "brand": "Flying Wooden",
       "category": "home-decoration",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8uh0CDlj9LXJoKLXHW9LVq0Vht_Rog4qnjWWoOw9BOA_TvFk3wIDc9mQPh6ZSVT30J-g&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/post-item2.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/27/1.jpg",
         "https://cdn.dummyjson.com/product-images/27/2.jpg",
@@ -221,13 +221,32 @@
       "stock": 54,
       "brand": "LED Lights",
       "category": "home-decoration",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CIyx7uOxIdD-Hh6kA1aEcw482sDUrDJ1xEYoBJm0Fn6cUjR_7hKn_ygOzT7V6qfdW0E&usqp=CAU",
+      "thumbnail": "http://127.0.0.1:5500/images/product-item10.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/28/1.jpg",
         "https://cdn.dummyjson.com/product-images/28/2.jpg",
         "https://cdn.dummyjson.com/product-images/28/3.png",
         "https://cdn.dummyjson.com/product-images/28/4.jpg",
         "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Handcraft Chinese style",
+      "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
+      "price": 60,
+      "discountPercentage": 15.34,
+      "rating": 4.44,
+      "stock": 7,
+      "brand": "luxury palace",
+      "category": "home-decoration",
+      "thumbnail": "http://127.0.0.1:5500/images/post-item1.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/29/1.jpg",
+        "https://cdn.dummyjson.com/product-images/29/2.jpg",
+        "https://cdn.dummyjson.com/product-images/29/3.webp",
+        "https://cdn.dummyjson.com/product-images/29/4.webp",
+        "https://cdn.dummyjson.com/product-images/29/thumbnail.webp"
       ]
     }
   ]
