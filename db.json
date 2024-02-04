@@ -26,228 +26,112 @@
   ],
   "products": [
     {
-      "id": 18,
-      "title": "IPHONE 10",
-      "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
-      "price": 980,
-      "discountPercentage": 13.1,
-      "rating": 4.56,
-      "stock": 88,
-      "brand": "Dermive",
-      "category": "skincare",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item2.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/18/1.jpg",
-        "https://cdn.dummyjson.com/product-images/18/2.jpg",
-        "https://cdn.dummyjson.com/product-images/18/3.jpg",
-        "https://cdn.dummyjson.com/product-images/18/4.jpg",
-        "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 19,
-      "title": "IPHONE 11",
-      "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
-      "price": 1100,
-      "discountPercentage": 10.68,
-      "rating": 4.42,
-      "stock": 54,
-      "brand": "ROREC White Rice",
-      "category": "skincare",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item3.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/19/1.jpg",
-        "https://cdn.dummyjson.com/product-images/19/2.jpg",
-        "https://cdn.dummyjson.com/product-images/19/3.png",
-        "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 20,
-      "title": "IPHONE 8",
-      "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
-      "price": 780,
-      "discountPercentage": 16.99,
-      "rating": 4.06,
-      "stock": 140,
-      "brand": "Fair & Clear",
-      "category": "skincare",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item4.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/20/1.jpg",
-        "https://cdn.dummyjson.com/product-images/20/2.jpg",
-        "https://cdn.dummyjson.com/product-images/20/3.jpg",
-        "https://cdn.dummyjson.com/product-images/20/4.jpg",
-        "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 21,
-      "title": "IPHONE 13",
-      "description": "Fine quality Branded Product Keep in a cool and dry place",
-      "price": 1500,
-      "discountPercentage": 4.81,
-      "rating": 4.44,
-      "stock": 133,
-      "brand": "Saaf & Khaas",
-      "category": "groceries",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item4.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/21/1.png",
-        "https://cdn.dummyjson.com/product-images/21/2.jpg",
-        "https://cdn.dummyjson.com/product-images/21/3.jpg"
-      ]
-    },
-    {
-      "id": 22,
       "title": "HEAVY WATCH",
-      "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
-      "price": 680,
-      "discountPercentage": 15.58,
-      "rating": 4.57,
-      "stock": 146,
-      "brand": "Bake Parlor Big",
-      "category": "groceries",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item5.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/22/1.jpg",
-        "https://cdn.dummyjson.com/product-images/22/2.jpg",
-        "https://cdn.dummyjson.com/product-images/22/3.jpg"
-      ]
+      "price": "680",
+      "description": "HEAVY WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078165/Project_js/c7c2svvtbigg3wg3hevc.png"
+      ],
+      "id": 31
     },
     {
-      "id": 23,
       "title": "SPOTTED WATCH",
-      "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
-      "price": 750,
-      "discountPercentage": 8.04,
-      "rating": 4.85,
-      "stock": 26,
-      "brand": "Baking Food Items",
-      "category": "groceries",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item1.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/23/1.jpg",
-        "https://cdn.dummyjson.com/product-images/23/2.jpg",
-        "https://cdn.dummyjson.com/product-images/23/3.jpg",
-        "https://cdn.dummyjson.com/product-images/23/4.jpg",
-        "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg"
-      ]
+      "price": "750",
+      "description": "SPOTTED WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078294/Project_js/nmqcopgjg7wp7x8tjqwy.jpg"
+      ],
+      "id": 32
     },
     {
-      "id": 24,
       "title": "BLACK WATCH",
-      "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
-      "price": 650,
-      "discountPercentage": 16.8,
-      "rating": 4.94,
-      "stock": 113,
-      "brand": "fauji",
-      "category": "groceries",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item7.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/24/1.jpg",
-        "https://cdn.dummyjson.com/product-images/24/2.jpg",
-        "https://cdn.dummyjson.com/product-images/24/3.jpg",
-        "https://cdn.dummyjson.com/product-images/24/4.jpg",
-        "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg"
-      ]
+      "price": "650",
+      "description": "BLACK WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078366/Project_js/almetllj5ocbdua6tsfy.jpg"
+      ],
+      "id": 33
     },
     {
-      "id": 25,
       "title": "BLACK WATCH",
-      "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
-      "price": 750,
-      "discountPercentage": 13.58,
-      "rating": 4.87,
-      "stock": 47,
-      "brand": "Dry Rose",
-      "category": "groceries",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item8.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/25/1.png",
-        "https://cdn.dummyjson.com/product-images/25/2.jpg",
-        "https://cdn.dummyjson.com/product-images/25/3.png",
-        "https://cdn.dummyjson.com/product-images/25/4.jpg",
-        "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg"
-      ]
+      "price": "750",
+      "description": "BLACK WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078480/Project_js/zyv1cqnjgny9e5evyojc.jpg"
+      ],
+      "id": 34
     },
     {
-      "id": 26,
+      "title": "IPHONE 11",
+      "price": "1100",
+      "description": "IPHONE 11",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078618/Project_js/hfciaz8z7nkvhatjasop.jpg"
+      ],
+      "id": 35
+    },
+    {
+      "title": "IPHONE 10",
+      "price": "980",
+      "description": "IPHONE 10",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078651/Project_js/hdnesijynhifctqhtaqa.jpg"
+      ],
+      "id": 36
+    },
+    {
+      "title": "IPHONE 8",
+      "price": "780",
+      "description": "IPHONE 8",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078694/Project_js/imaa1mvfz9gveuespduu.jpg"
+      ],
+      "id": 37
+    },
+    {
+      "title": "IPHONE 13",
+      "price": "1500",
+      "description": "IPHONE 13",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078714/Project_js/cyz4a06dt9oplytw6azx.jpg"
+      ],
+      "id": 38
+    },
+    {
+      "title": "IPHONE 12",
+      "price": "1300",
+      "description": "IPHONE 12",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078749/Project_js/ezetdl2ejuwyrovqxpn4.jpg"
+      ],
+      "id": 39
+    },
+    {
       "title": "GET SOME COOL GADGETS IN 2023",
-      "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
-      "price": 4100,
-      "discountPercentage": 17.86,
-      "rating": 4.08,
-      "stock": 131,
-      "brand": "Boho Decor",
-      "category": "home-decoration",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item9.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/26/1.jpg",
-        "https://cdn.dummyjson.com/product-images/26/2.jpg",
-        "https://cdn.dummyjson.com/product-images/26/3.jpg",
-        "https://cdn.dummyjson.com/product-images/26/4.jpg",
-        "https://cdn.dummyjson.com/product-images/26/5.jpg",
-        "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg"
-      ]
+      "price": "2200",
+      "description": "GET SOME COOL GADGETS IN 2023",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078886/Project_js/syvgoswdjt5v0dazgif9.jpg"
+      ],
+      "id": 40
     },
     {
-      "id": 27,
       "title": "TECHNOLOGY HACK YOU WON'T GET",
-      "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
-      "price": 5100,
-      "discountPercentage": 15.58,
-      "rating": 4.41,
-      "stock": 17,
-      "brand": "Flying Wooden",
-      "category": "home-decoration",
-      "thumbnail": "http://127.0.0.1:5500/images/post-item2.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/27/1.jpg",
-        "https://cdn.dummyjson.com/product-images/27/2.jpg",
-        "https://cdn.dummyjson.com/product-images/27/3.jpg",
-        "https://cdn.dummyjson.com/product-images/27/4.jpg",
-        "https://cdn.dummyjson.com/product-images/27/thumbnail.webp"
-      ]
+      "price": "1100",
+      "description": "TECHNOLOGY HACK YOU WON'T GET",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078943/Project_js/q8qativvurrtbeutrr9t.jpg"
+      ],
+      "id": 41
     },
     {
-      "id": 28,
       "title": "TOP 10 SMALL CAMERA IN THE WORLD",
-      "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
-      "price": 2300,
-      "discountPercentage": 16.49,
-      "rating": 4.82,
-      "stock": 54,
-      "brand": "LED Lights",
-      "category": "home-decoration",
-      "thumbnail": "http://127.0.0.1:5500/images/product-item10.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/28/1.jpg",
-        "https://cdn.dummyjson.com/product-images/28/2.jpg",
-        "https://cdn.dummyjson.com/product-images/28/3.png",
-        "https://cdn.dummyjson.com/product-images/28/4.jpg",
-        "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Handcraft Chinese style",
-      "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
-      "price": 60,
-      "discountPercentage": 15.34,
-      "rating": 4.44,
-      "stock": 7,
-      "brand": "luxury palace",
-      "category": "home-decoration",
-      "thumbnail": "http://127.0.0.1:5500/images/post-item1.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/29/1.jpg",
-        "https://cdn.dummyjson.com/product-images/29/2.jpg",
-        "https://cdn.dummyjson.com/product-images/29/3.webp",
-        "https://cdn.dummyjson.com/product-images/29/4.webp",
-        "https://cdn.dummyjson.com/product-images/29/thumbnail.webp"
-      ]
+      "price": "1600",
+      "description": "TOP 10 SMALL CAMERA IN THE WORLD",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078990/Project_js/j9rubud0xmplu1yuwfti.jpg"
+      ],
+      "id": 42
     }
   ]
 }

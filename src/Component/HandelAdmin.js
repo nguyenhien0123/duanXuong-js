@@ -25,7 +25,7 @@ const HandelAdmin = async () => {
         <td>${item.id}</td>
         <td>${item.title}</td>
         <td>${item.price}</td>
-        <td><img src="${item.thumbnail}"/></td>
+        <td><img src="${item.gallery[0]}" alt="Ảnh sản phẩm"></td>
         <td>${item.description}</td>
         <td class="action">
        <a href="edit/${item.id}"> <button class="btn-edit" data-id="${item.id}">Edit</button></a>

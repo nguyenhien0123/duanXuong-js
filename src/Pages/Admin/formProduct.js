@@ -1,7 +1,7 @@
 const formProduct = () => {
   return /*html*/ `<div class="form-add">
   <h2>Add New Product</h2>
-    <form>
+    <form action="" id="form-add">
 
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
@@ -12,8 +12,8 @@ const formProduct = () => {
               <input type="number" class="form-control" id="price" />
             </div>
              <div class="mb-3">
-              <label for="image" class="form-label">Image</label>
-              <input type="file" class="form-control" id="image" />
+              <label for="image" class="form-label">Add Image</label>
+              <input type="file" class="form-control" multiple id="image" />
             </div>
             <div class="mb-3">
               <label for="desc" class="form-label">Description</label>

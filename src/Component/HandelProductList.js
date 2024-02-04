@@ -14,11 +14,7 @@ const callApi = (product) => {
           <div class="swiper-slide">
                 <div class="product-card position-relative">
                   <div class="image-holder">
-                   <a href="/detail/${product.id}"> <img
-                      src="${product.thumbnail}"
-                      alt="product-item"
-                      class="img-fluid"
-                    /></a>
+                   <a href="/detail/${product.id}"> <img src="${product.gallery[0]}" alt="Ảnh sản phẩm"></a>
                   </div>
                   <div class="cart-concern position-absolute">
 

@@ -16,7 +16,7 @@ const Detail = () => {
       if (data) {
         detailProduct.innerHTML = `
           <div class="product-detail">
-            <img src="${data.thumbnail}" />
+            <img src="${data.gallery[0]}" alt="Ảnh sản phẩm">
            <div class="detail-infor"> <div class="title">${data.title}</div>
             <div class="price">Giá: $${data.price}</div>
             <div class="des">Mô tả: ${data.description}</div>
