@@ -5,6 +5,7 @@ import api from "../apis";
 //   btnUpdate.onclick = HandelUpdate;
 // };
 const HandelUpdate = async (id) => {
+  console.log(id);
   const { data } = await api.get(`/products/${id}`);
   document.querySelector("#name").value = data.name || "";
   document.querySelector("#price").value = data.price || "";

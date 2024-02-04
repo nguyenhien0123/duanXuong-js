@@ -27,7 +27,6 @@ router.on("/", () => render(app, HomePage), {
 router.on("/detail/:id", () => render(app, Detail), {
   after(params) {
     const id = params.id;
-    console.log(params);
     HandelDetail({ id });
   },
 });
