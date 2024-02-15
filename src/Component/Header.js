@@ -58,9 +58,7 @@ const Header = () => {
                 <li class="nav-item">
                   <a class="nav-link me-4" href="/signup">SignUp</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link me-4" href="/signout">SignOut</a>
-                </li>
+              
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link me-4 dropdown-toggle link-dark"

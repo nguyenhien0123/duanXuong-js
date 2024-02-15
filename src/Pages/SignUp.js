@@ -9,7 +9,7 @@ const SignUp = () => {
    ${Header()}
     <div class="signup">
     <form action="">
-    <h2>Register</h2>
+    <h2>SignUp</h2>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input type="email" class="form-control" id="email" aria-describedby="emailHelp">

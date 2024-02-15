@@ -1,16 +1,71 @@
 import api from "../apis";
 
-// const onUpdate = () => {
-//   const btnUpdate = document.querySelector(".btn-update");
-//   btnUpdate.onclick = HandelUpdate;
-// };
-const HandelUpdate = async (id) => {
-  console.log(id);
-  const { data } = await api.get(`/products/${id}`);
-  document.querySelector("#name").value = data.name || "";
-  document.querySelector("#price").value = data.price || "";
-  document.querySelector("#desc").value = data.desc || "";
-  console.log(data);
+let idEdit;
+const getIdUrl = () => {
+  const pathName = window.location.pathname;
+  const match = pathName.match(/\/edit\/(\d+)/);
+  if (match) {
+    return match[1];
+  } else {
+    return null;
+  }
 };
+const HandelUpdate = async () => {
+  const productId = getIdUrl();
+  idEdit = Number(productId);
+  if (productId !== null) {
+    try {
+      const { data } = await api.get(`/products/${productId}`);
+      idEdit = productId;
+      document.querySelector("#name").value = data.title || null;
+      document.querySelector("#price").value = data.price || null;
+      document.querySelector("#desc").value = data.description || null;
+      const imageElement = document.querySelector("#image-preview");
+
+      if (imageElement) {
+        imageElement.removeAttribute("src");
+        const gallery =
+          Array.isArray(data.gallery) && data.gallery.length > 0
+            ? data.gallery[0]
+            : "";
+        imageElement.setAttribute(
+          "src",
+          gallery !== "" ? gallery : "default_image_url.jpg"
+        );
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  } else {
+    console.error("Không tìm thấy ID trong URL");
+  }
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btnUpdate = document.querySelector("#btn-update");
+  if (btnUpdate) {
+    btnUpdate.addEventListener("click", async () => {
+      const title = document.querySelector("#name").value;
+      const price = document.querySelector("#price").value;
+      const description = document.querySelector("#desc").value;
+      try {
+        if (idEdit) {
+          const editProduct = {
+            title,
+            price,
+            description,
+          };
+          await api.patch(`/products/${idEdit}`, editProduct);
+          alert("Cập nhật thành công");
+          window.location.href = "/admin";
+        } else {
+          console.error("idEdit không hợp lệ");
+        }
+      } catch (error) {
+        console.error("Error updating product:", error);
+      }
+    });
+  }
+});
 
 export default HandelUpdate;

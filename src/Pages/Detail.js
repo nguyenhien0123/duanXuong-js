@@ -3,14 +3,14 @@ import Header from "../Component/Header";
 
 const Detail = () => {
   return /*html*/ `
- <div>
-  ${Header()}
+ <div>${Header()}
   
     <div class="detail">
       
     </div>
  </div>
-  ${Footer()}
+  ${Footer()}</>
+  
   `;
 };
 

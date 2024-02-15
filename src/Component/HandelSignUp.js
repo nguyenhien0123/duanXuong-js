@@ -24,7 +24,10 @@ const HandelSignUp = async (e) => {
         phone: "",
       });
       if (data) {
-        alert("dang ki thanh cong");
+        if (confirm("Đăng kí thành công bạn có muốn đăng nhập")) {
+          window.location.href = "/signin";
+          form.reset();
+        }
       }
     } catch (error) {
       console.log(error);

@@ -24,6 +24,8 @@ const HandelSubmitAdd = () => {
 
       try {
         await api.post("/products", newProduct);
+        alert("Thêm sản phẩm thành công");
+        window.location.href = "/admin";
       } catch (error) {
         console.error(error);
       }
@@ -31,7 +33,7 @@ const HandelSubmitAdd = () => {
   };
 };
 
-const uploadFiles = async (files) => {
+export const uploadFiles = async (files) => {
   if (files) {
     const CLOUD_NAME = "dpc58j5gw";
     const PRESET_NAME = "o7r6zdkj";
@@ -55,7 +57,6 @@ const uploadFiles = async (files) => {
       }
     }
     return urls;
-    window.location.reload();
   }
 };
 

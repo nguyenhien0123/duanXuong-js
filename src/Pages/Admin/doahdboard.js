@@ -6,5 +6,4 @@ const doahdboard = () => {
     </div>
   `;
 };
-
 export default doahdboard;

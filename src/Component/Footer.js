@@ -12,11 +12,7 @@ const Footer = () => {
               </svg>
             </div>
             <div class="swiper testimonial-swiper">
-              <div class="quotation text-center">
-                <svg class="quote">
-                  <use xlink:href="#quote" />
-                </svg>
-              </div>
+            
               <div class="swiper-wrapper">
                 <div
                   class="swiper-slide text-center d-flex justify-content-center"

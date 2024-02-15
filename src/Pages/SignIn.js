@@ -8,7 +8,7 @@ const SignIn = () => {
    <img class="img-bg" src="../../public/background-trang-1.webp"/>
 
      <form>
-    <h2>LogIn</h2>
+    <h2>SignIn</h2>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input type="email" class="form-control" id="email" aria-describedby="emailHelp">

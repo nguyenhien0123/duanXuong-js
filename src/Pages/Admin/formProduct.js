@@ -23,5 +23,4 @@ const formProduct = () => {
           </form>
     </div>`;
 };
-
 export default formProduct;

@@ -1,48 +1,15 @@
 {
   "users": [
     {
-      "email": "hienn78333@gmail.com",
-      "password": "$2a$10$QomJKmzdfZ8w4XJyOed4TuMgO8yI2lcjl6gukY2xgCiqwcYkvOWw.",
-      "id": 1
-    },
-    {
       "email": "hien@gmail.com",
       "password": "$2a$10$uf4CysnMA/VL8fe1ojUzhOa0UUskH8JCsRXrS12LyLj.kyegx8/wK",
       "role": "admin",
       "cart": [],
       "phone": "",
       "id": 2
-    },
-    {
-      "email": "hien000@gmail.com",
-      "password": "$2a$10$ft1Wxw13iH5WRbXVdjfFCuDFGxQfCOXoT9Np0stxZNb4yUVQ3Xt6G",
-      "id": 3
-    },
-    {
-      "email": "hoang123@gmail.com",
-      "password": "$2a$10$ieDrlIpi4atFrbviZc1Ad.B2WaeTrHPxOjTRaifl3rsG/ATTCf4iO",
-      "id": 4
     }
   ],
   "products": [
-    {
-      "title": "HEAVY WATCH",
-      "price": "680",
-      "description": "HEAVY WATCH",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078165/Project_js/c7c2svvtbigg3wg3hevc.png"
-      ],
-      "id": 31
-    },
-    {
-      "title": "SPOTTED WATCH",
-      "price": "750",
-      "description": "SPOTTED WATCH",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078294/Project_js/nmqcopgjg7wp7x8tjqwy.jpg"
-      ],
-      "id": 32
-    },
     {
       "title": "BLACK WATCH",
       "price": "650",
@@ -54,7 +21,7 @@
     },
     {
       "title": "BLACK WATCH",
-      "price": "750",
+      "price": "770",
       "description": "BLACK WATCH",
       "gallery": [
         "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078480/Project_js/zyv1cqnjgny9e5evyojc.jpg"
@@ -132,6 +99,24 @@
         "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078990/Project_js/j9rubud0xmplu1yuwfti.jpg"
       ],
       "id": 42
+    },
+    {
+      "title": "HEAVY WATCH",
+      "price": "780",
+      "description": "HEAVY WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707957650/Project_js/pj2jb6jip159v3sihjxb.png"
+      ],
+      "id": 43
+    },
+    {
+      "title": "BLACK WATCH",
+      "price": "690",
+      "description": "BLACK WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707957694/Project_js/gqeocw97mkgyzunmth59.jpg"
+      ],
+      "id": 44
     }
   ]
 }
