@@ -62,103 +62,181 @@
       "cart": [],
       "phone": "",
       "id": 9
+    },
+    {
+      "email": "hien12345@gmail.com",
+      "password": "$2a$10$QQApuoW8Uo457Lp75r7FlOi/2p2sRrwAEo73M9kVnOZC4nb8I7nEm",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 10
+    },
+    {
+      "email": "abcd12@gmail.com",
+      "password": "$2a$10$MKHu5Fm27HTiyL5Av1AsiuC8tu4/CjRW.e9iItk5yEGqiM0jvF1NC",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 11
+    },
+    {
+      "email": "hgfhgf12@gmail.com",
+      "password": "$2a$10$js.4W5mOPN8o5zrtvNbKIuG4NMF9QdejBgGIw5L/vlJMwWmmOjT/K",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 12
+    },
+    {
+      "email": "hgfhgf123@gmail.com",
+      "password": "$2a$10$M963s1akmTu3cMLbyZzdr.4fBHDNwop8QvKTgN8ydTnnmhxOhxf5.",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 13
+    },
+    {
+      "email": "h123@gmail.com",
+      "password": "$2a$10$Xq8GkpmKZ/KYJa5pXJ7mLOrnmukEZcrlewU1TwyKfC6dLEdjPrP2C",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 14
+    },
+    {
+      "email": "h12@gmail.com",
+      "password": "$2a$10$zVp.sgzMl8qBKrvNzlw0k.VKV7yvLE1RVnz0LOLIVU69sgF7DG8fm",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 15
+    },
+    {
+      "email": "h1234@gmail.com",
+      "password": "$2a$10$c4jkgJXfZHsUtYQFZcoTIer7EG4RBLTjGG6jRWd/JNuFUkaxyiW.K",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 16
+    },
+    {
+      "email": "h1@gmail.com",
+      "password": "$2a$10$UDWrrnpSFhXHs9r/zV4JU.oJcpX.6GlKfzi/CFrEBTm1PU7lJioN6",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 17
+    },
+    {
+      "email": "h13@gmail.com",
+      "password": "$2a$10$3u9Smv1vgdbkQnhPKYKoUewNDBk8jFVkUJ4vlOJNKwynQTlqvQwGm",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 18
+    },
+    {
+      "email": "h125@gmail.com",
+      "password": "$2a$10$q3tGp1BKNhmP9wqmCi8GhubQ6X18ZD4h1gupHw9vD2KR/5wEzE3Eq",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 19
+    },
+    {
+      "email": "hien55@gmail.com",
+      "password": "$2a$10$yqbZiO1198fv3NjstWckz.wzHlvA/yUByRuNj98wBdYmI79MtWFYW",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 20
+    },
+    {
+      "email": "h7@gmail.com",
+      "password": "$2a$10$Xc2IydFxBc.8PMYgzRjKxusN.zmfwg6hNMGXyZ8d02Z3Q351Bc5xq",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 21
+    },
+    {
+      "email": "h8@gmail.com",
+      "password": "$2a$10$5XERM3wRej/L/I11MbkrOustgtHiJ1TYpfRiOJzFaAAK.nDmjGCyy",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 22
+    },
+    {
+      "email": "h4@gmail.com",
+      "password": "$2a$10$XTE9swmFXHlR7i8AsDMkvuJjAJBQEfJIb7aOrOKCT2iKcZbDwyLGC",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 23
+    },
+    {
+      "email": "h6@gmail.com",
+      "password": "$2a$10$jjQyaU8EZ5VfreY1lrQn2e3PlXkxt2AJjrwnM4CKiJiooksbMzv1.",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 24
+    },
+    {
+      "email": "hehe@gmail.com",
+      "password": "$2a$10$AxQgMDyZpgJjaf2rjPSiA.uQSWubqPGcovutknTiJBilkY/P/TB7e",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 25
+    },
+    {
+      "email": "hihi@gmail.com",
+      "password": "$2a$10$KEMQR1MtWIhAMJuMRnBAmOSwSXjbiLQ.w/kNL/puwuj.sHf8frkEq",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 26
+    },
+    {
+      "email": "hihihi@gmail.com",
+      "password": "$2a$10$cDw0X1lxwdXG4dabxVh5CewlH6mvvYoh9TJlIkhzXV2bNrclX/Ypq",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 27
+    },
+    {
+      "email": "hehehe@gmail.com",
+      "password": "$2a$10$EBbnKHNZsmDxy5r6dX16BOUzYJ4qVv3FhDWHD51TOljdoSg7ENan2",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 28
+    },
+    {
+      "email": "hien12@gmail.com",
+      "password": "$2a$10$Ax8xmbH4DT2z/cieeYyp.OeBFsVAuA3NQ4fJ3H9TxVmXCurcASfmC",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 29
+    },
+    {
+      "email": "nghien@gmail.com",
+      "password": "$2a$10$LuiFQZJJ4e2/x3Kwi1uUuuRxZodlw7A8a3qexYnO3NehPDi.oyTyy",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 30
     }
   ],
   "products": [
     {
-      "title": "BLACK WATCH",
-      "price": "670",
-      "description": "BLACK WATCH",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078366/Project_js/almetllj5ocbdua6tsfy.jpg"
-      ],
-      "id": 33
-    },
-    {
-      "title": "BLACK WATCH",
-      "price": "770",
-      "description": "BLACK WATCH",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078480/Project_js/zyv1cqnjgny9e5evyojc.jpg"
-      ],
-      "id": 34
-    },
-    {
-      "title": "IPHONE 11",
-      "price": "1100",
-      "description": "IPHONE 11",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078618/Project_js/hfciaz8z7nkvhatjasop.jpg"
-      ],
-      "id": 35
-    },
-    {
-      "title": "IPHONE 10",
-      "price": "980",
-      "description": "IPHONE 10",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078651/Project_js/hdnesijynhifctqhtaqa.jpg"
-      ],
-      "id": 36
-    },
-    {
-      "title": "IPHONE 8",
-      "price": "780",
-      "description": "IPHONE 8",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078694/Project_js/imaa1mvfz9gveuespduu.jpg"
-      ],
-      "id": 37
-    },
-    {
-      "title": "IPHONE 13",
-      "price": "1500",
-      "description": "IPHONE 13",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078714/Project_js/cyz4a06dt9oplytw6azx.jpg"
-      ],
-      "id": 38
-    },
-    {
-      "title": "IPHONE 12",
-      "price": "1300",
-      "description": "IPHONE 12",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078749/Project_js/ezetdl2ejuwyrovqxpn4.jpg"
-      ],
-      "id": 39
-    },
-    {
-      "title": "GET SOME COOL GADGETS IN 2023",
-      "price": "2200",
-      "description": "GET SOME COOL GADGETS IN 2023",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078886/Project_js/syvgoswdjt5v0dazgif9.jpg"
-      ],
-      "id": 40
-    },
-    {
-      "title": "TECHNOLOGY HACK YOU WON'T GET",
-      "price": "1100",
-      "description": "TECHNOLOGY HACK YOU WON'T GET",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078943/Project_js/q8qativvurrtbeutrr9t.jpg"
-      ],
-      "id": 41
-    },
-    {
-      "title": "TOP 10 SMALL CAMERA IN THE WORLD",
-      "price": "1600",
-      "description": "TOP 10 SMALL CAMERA IN THE WORLD",
-      "gallery": [
-        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078990/Project_js/j9rubud0xmplu1yuwfti.jpg"
-      ],
-      "id": 42
-    },
-    {
-      "title": "HEAVY WATCH",
-      "price": "780",
-      "description": "HEAVY WATCH",
+      "title": "HEAVY ",
+      "price": "790",
+      "description": "HEAVY",
       "gallery": [
         "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707957650/Project_js/pj2jb6jip159v3sihjxb.png"
       ],
@@ -172,6 +250,78 @@
         "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707957694/Project_js/gqeocw97mkgyzunmth59.jpg"
       ],
       "id": 44
+    },
+    {
+      "title": "HEAVY WATCH",
+      "price": "10000",
+      "description": "HEAVY WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707973471/Project_js/gzd7tlmaxq3jr2h2wppw.jpg"
+      ],
+      "id": 45
+    },
+    {
+      "title": "HEAVY WATCH",
+      "price": "10000",
+      "description": "HEAVY WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707974288/Project_js/eufdju2no9uxuhj8tsso.jpg"
+      ],
+      "id": 46
+    },
+    {
+      "title": "BLACK WATCH",
+      "price": "1200",
+      "description": "BLACK WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707975431/Project_js/ewunuuxegpj5tjg0fy1c.jpg"
+      ],
+      "id": 48
+    },
+    {
+      "title": "HEAVY WATCH",
+      "price": "10000",
+      "description": "HEAVY WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707977746/Project_js/oa2la7lsyslxijgl2hfz.jpg"
+      ],
+      "id": 49
+    },
+    {
+      "title": "HEAVY WATCH",
+      "price": "10000",
+      "description": "HEAVY WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707979634/Project_js/wuo6lkg5clkf6rohrjcl.jpg"
+      ],
+      "id": 50
+    },
+    {
+      "title": "BLACK WATCH",
+      "price": "10000",
+      "description": "BLACK WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707980384/Project_js/hg8kxtkxkrqbrci82buy.png"
+      ],
+      "id": 51
+    },
+    {
+      "title": "BLACK WATCH",
+      "price": "10000",
+      "description": "BLACK WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707980392/Project_js/eps0mlbnil3hceqlv0t2.png"
+      ],
+      "id": 52
+    },
+    {
+      "title": "HEAVY WATCH",
+      "price": "10000",
+      "description": "HEAVY WATCH",
+      "gallery": [
+        "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707981301/Project_js/ok9lqmf4gxotstuoormr.png"
+      ],
+      "id": 53
     }
   ]
 }

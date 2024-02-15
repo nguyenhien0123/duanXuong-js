@@ -20,6 +20,11 @@ const HandelAdmin = async () => {
           api
             .delete(`products/${id}`)
             .then(() => {
+              Swal.fire({
+                title: "Thành công!",
+                text: "Sản phẩm đã được xoá thành công.",
+                icon: "success",
+              });
               window.location.reload();
             })
 

@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Thành công",
             text: "Cập nhật thành công",
             icon: "success",
-            confirmButtonText: "Đóng",
+            confirmButtonText: "Ok",
           }).then((result) => {
             if (result.isConfirmed) {
               window.location.href = "/admin";
