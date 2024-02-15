@@ -19,10 +19,20 @@ const HandelSigin = async (e) => {
       const { data } = await api.post("/signin", user);
       if (data) {
         sessionStorage.setItem("user", JSON.stringify(data));
-        if (confirm("Đăng nhập thành công bạn có muốn đến trang mua sắm")) {
-          window.location.href = "/";
-          form.reset();
-        }
+        Swal.fire({
+          title: "Đăng nhập thành công!",
+          text: "Bạn có muốn đến trang mua sắm?",
+          icon: "success",
+          showCancelButton: true,
+          confirmButtonColor: "#3085d6",
+          cancelButtonColor: "#d33",
+          confirmButtonText: "Ok",
+          cancelButtonText: "Cancel",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            window.location.href = "/";
+          }
+        });
       }
     } catch (error) {
       console.log(error.response.data);

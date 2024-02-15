@@ -6,10 +6,28 @@ const HandelAdmin = async () => {
 
   const deleProduct = (id) => {
     try {
-      if (confirm("Bạn có muốn xoá sản phẩm")) {
-        api.delete(`products/${id}`);
-        window.location.reload();
-      }
+      Swal.fire({
+        title: "Xác nhận",
+        text: "Bạn có muốn xoá sản phẩm?",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#d33",
+        cancelButtonColor: "#3085d6",
+        confirmButtonText: "Xoá",
+        cancelButtonText: "Hủy",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          api
+            .delete(`products/${id}`)
+            .then(() => {
+              window.location.reload();
+            })
+
+            .catch((error) => {
+              console.error("Error while deleting product:", error);
+            });
+        }
+      });
     } catch (error) {
       console.log(error);
     }

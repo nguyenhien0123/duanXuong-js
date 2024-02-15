@@ -1,18 +1,73 @@
 {
   "users": [
     {
+      "email": "hienn78333@gmail.com",
+      "password": "$2a$10$QomJKmzdfZ8w4XJyOed4TuMgO8yI2lcjl6gukY2xgCiqwcYkvOWw.",
+      "id": 1
+    },
+    {
       "email": "hien@gmail.com",
       "password": "$2a$10$uf4CysnMA/VL8fe1ojUzhOa0UUskH8JCsRXrS12LyLj.kyegx8/wK",
       "role": "admin",
       "cart": [],
       "phone": "",
       "id": 2
+    },
+    {
+      "email": "hien000@gmail.com",
+      "password": "$2a$10$ft1Wxw13iH5WRbXVdjfFCuDFGxQfCOXoT9Np0stxZNb4yUVQ3Xt6G",
+      "id": 3
+    },
+    {
+      "email": "hoang123@gmail.com",
+      "password": "$2a$10$ieDrlIpi4atFrbviZc1Ad.B2WaeTrHPxOjTRaifl3rsG/ATTCf4iO",
+      "id": 4
+    },
+    {
+      "email": "hien111@gmail.com",
+      "password": "$2a$10$2O2lurdgNfqsOEUHab2EE.ZDnf5uHsqZsjeXWkMTkppsbeeY5N3sS",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 5
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "$2a$10$GVCZ/lNNV22yhoLrrSmGSO6BtEFmqTe3wtP4nZSxKGJ0RsEnna/9u",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 6
+    },
+    {
+      "email": "hgfhgf111@gmail.com",
+      "password": "$2a$10$uVnmJTLFKB4R1psL35khvOCiu2ekK5qZIODo.m.hzflxFmI6ivarG",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 7
+    },
+    {
+      "email": "abcd111@gmail.com",
+      "password": "$2a$10$9X0IuBKSwtPzRaQBAY3wluEZYSRq7LxEUWQhM1D/0HHbQIq8hIReS",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 8
+    },
+    {
+      "email": "abcd11121@gmail.com",
+      "password": "$2a$10$xUAMvmxCLuCSr9Sa7ByDYuQPryycrRjQFut4frg4mR3KdY/B8RKAS",
+      "role": "member",
+      "cart": [],
+      "phone": "",
+      "id": 9
     }
   ],
   "products": [
     {
       "title": "BLACK WATCH",
-      "price": "650",
+      "price": "670",
       "description": "BLACK WATCH",
       "gallery": [
         "http://res.cloudinary.com/dpc58j5gw/image/upload/v1707078366/Project_js/almetllj5ocbdua6tsfy.jpg"

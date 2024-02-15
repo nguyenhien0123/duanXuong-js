@@ -24,10 +24,21 @@ const HandelSignUp = async (e) => {
         phone: "",
       });
       if (data) {
-        if (confirm("Đăng kí thành công bạn có muốn đăng nhập")) {
-          window.location.href = "/signin";
-          form.reset();
-        }
+        Swal.fire({
+          title: "Đăng kí thành công!",
+          text: "Bạn có muốn đăng nhập?",
+          icon: "success",
+          showCancelButton: true,
+          confirmButtonColor: "#3085d6",
+          cancelButtonColor: "#d33",
+          confirmButtonText: "Ok",
+          cancelButtonText: "Cancel",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            window.location.href = "/signin";
+            form.reset();
+          }
+        });
       }
     } catch (error) {
       console.log(error);

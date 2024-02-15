@@ -44,7 +44,8 @@ const HandelUpdate = async () => {
 document.addEventListener("DOMContentLoaded", () => {
   const btnUpdate = document.querySelector("#btn-update");
   if (btnUpdate) {
-    btnUpdate.addEventListener("click", async () => {
+    btnUpdate.addEventListener("click", async (event) => {
+      event.preventDefault();
       const title = document.querySelector("#name").value;
       const price = document.querySelector("#price").value;
       const description = document.querySelector("#desc").value;
@@ -56,8 +57,16 @@ document.addEventListener("DOMContentLoaded", () => {
             description,
           };
           await api.patch(`/products/${idEdit}`, editProduct);
-          alert("Cập nhật thành công");
-          window.location.href = "/admin";
+          Swal.fire({
+            title: "Thành công",
+            text: "Cập nhật thành công",
+            icon: "success",
+            confirmButtonText: "Đóng",
+          }).then((result) => {
+            if (result.isConfirmed) {
+              window.location.href = "/admin";
+            }
+          });
         } else {
           console.error("idEdit không hợp lệ");
         }

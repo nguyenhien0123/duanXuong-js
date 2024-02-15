@@ -59,9 +59,17 @@ router.on("/admin", () => render(app, doahdboard), {
       if (loged && loged.role === "admin") {
         done();
       } else {
-        alert("Bạn không có quyền truy cập");
+        Swal.fire({
+          title: "Thông báo",
+          text: "Bạn không có quyền truy cập!",
+          icon: "warning",
+          confirmButtonText: "Ok",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            window.location.href = "/";
+          }
+        });
         done(false);
-        window.location.href = "/";
       }
     } catch (error) {
       console.error("Error in before hook:", error);
@@ -71,13 +79,19 @@ router.on("/admin", () => render(app, doahdboard), {
     HandelAdmin();
   },
 });
+
 router.on("/admin/add", () => render(app, formProduct), {
   before(done) {
     const loged = JSON.parse(sessionStorage.getItem("user"))?.user;
     if (loged && loged.role === "admin") {
       done();
     } else {
-      alert("Bạn không có quyền truy cập");
+      Swal.fire({
+        title: "Thông báo",
+        text: "Bạn không có quyền truy cập!",
+        icon: "warning",
+        confirmButtonText: "Ok",
+      });
       window.location.href = "/";
     }
   },
@@ -91,7 +105,12 @@ router.on("/edit/:id", () => render(app, formUpdate), {
     if (loged && loged.role === "admin") {
       done();
     } else {
-      alert("Bạn không có quyền truy cập");
+      Swal.fire({
+        title: "Thông báo",
+        text: "Bạn không có quyền truy cập!",
+        icon: "warning",
+        confirmButtonText: "Ok",
+      });
       window.location.href = "/";
     }
   },

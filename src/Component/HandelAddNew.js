@@ -24,8 +24,16 @@ const HandelSubmitAdd = () => {
 
       try {
         await api.post("/products", newProduct);
-        alert("Thêm sản phẩm thành công");
-        window.location.href = "/admin";
+        Swal.fire({
+          title: "Thành công",
+          text: "Cập nhật thành công",
+          icon: "success",
+          confirmButtonText: "Đóng",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            window.location.href = "/admin";
+          }
+        });
       } catch (error) {
         console.error(error);
       }
